@@ -1,12 +1,12 @@
 export type Actiontyp = 
-    'file_create' 
+      'file_create' 
     | 'file_delete' 
     | 'file_modify' 
     | 'file_read' 
     | 'execute_command' 
     | 'folder_create'
     | 'code_analysis'
-    'tool_execute';
+    | 'tool_execute'; 
 
 
 export type ActionStatus = 'pending' | 'executed' | 'approved' | 'rejected';

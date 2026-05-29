@@ -2,6 +2,7 @@ import { isCancel, text } from '@clack/prompts';
 import chalk from 'chalk';
 import { defaultAgentConfig } from './types';
 import { ActionTracker } from './action-tracker';
+import { ToolExecutor } from './tool-executor';
 
 export async function runAgentMode() {
     console.log(chalk.blue.bold("\n🤖AGENT MODE!\n"));
